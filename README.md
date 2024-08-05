@@ -30,3 +30,8 @@ We might write the two-dimensional array out as:
 int A[4][4] = { {0, 1, 2, 3} , {3, 2, 1, 0} , {3, 5, 6, 1} , {3, 8, 3, 4} };
 For a two-dimensional array, in order to reference every element, we must use two nested
 loops.
+
+Theory:
+• 2-Dimentional Array
+• Row major and column major storage representation for array
+• Address calculation for two dimensional array
