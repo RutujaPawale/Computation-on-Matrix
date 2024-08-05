@@ -15,3 +15,8 @@ Write a python program to compute following computation on matrix:
 Problem Definition:
 Matrix: A matrix is an m x n rectangular 2-D array of numbers with m rows and n columns.
 Or A matrix is an ordered set of numbers listed in rectangular form.
+
+              Column 0     Column 1     Column 2     Column 3
+row 0         a[0][0]      a[0][1]       a[0][2]      a[0][3]
+row 1         a[1][0]      a[1][1]       a[1][2]      a[1][3]
+row 2         a[2][0]      a[2][1]       a[2][2]      a[2][3]
