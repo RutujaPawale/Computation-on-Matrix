@@ -35,3 +35,12 @@ Theory:
 • 2-Dimentional Array
 • Row major and column major storage representation for array
 • Address calculation for two dimensional array
+
+Algorithms:
+Write down algorithms for following modules:
+1. Accepting a Matrix
+2. Displaying a Matrix
+3. Finding Transpose of matrix
+4. Adding two matrices
+5. Subtraction of two matrices
+6. Multiplication of two matrices
