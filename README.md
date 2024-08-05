@@ -44,3 +44,11 @@ Write down algorithms for following modules:
 4. Adding two matrices
 5. Subtraction of two matrices
 6. Multiplication of two matrices
+
+1. Addition of Two Matrices
+If A and B are two matrices of same order m x n (to be read as m by n matrix) then their
+addition is defined by A + B. For example if A is a matrix of order 2×3 and B is a matrix of
+same order 2×3 then addition is possible and the resultant matrix will be of order 2×3. If a
+matrix A has its order 2×3 and another matrix B has its order 3×2 then addition is not
+possible. So before adding any number of matrices we must check that whether each of the
+matrices are of same order or not then we need to proceed further.
