@@ -20,3 +20,13 @@ Or A matrix is an ordered set of numbers listed in rectangular form.
     row 0         a[0][0]      a[0][1]       a[0][2]      a[0][3]
     row 1         a[1][0]      a[1][1]       a[1][2]      a[1][3]
     row 2         a[2][0]      a[2][1]       a[2][2]      a[2][3]
+
+
+Initializing Two-Dimensional arrays:
+Two-Dimensional arrays may be initialized by providing a list of initial values & it looks like
+this:
+int A[4][4] ={ {0,1,2,3}, {3,2,1,0}, {3,5,6,1}, {3,8,3,4} };
+We might write the two-dimensional array out as:
+int A[4][4] = { {0, 1, 2, 3} , {3, 2, 1, 0} , {3, 5, 6, 1} , {3, 8, 3, 4} };
+For a two-dimensional array, in order to reference every element, we must use two nested
+loops.
