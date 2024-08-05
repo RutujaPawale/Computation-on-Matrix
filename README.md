@@ -11,3 +11,7 @@ Write a python program to compute following computation on matrix:
 2. Subtraction of matrices
 3. Multiplication of matrices
 4. Transpose of matrix
+
+Problem Definition:
+Matrix: A matrix is an m x n rectangular 2-D array of numbers with m rows and n columns.
+Or A matrix is an ordered set of numbers listed in rectangular form.
