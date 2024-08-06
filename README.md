@@ -91,3 +91,15 @@ the addition result. i, j are counters.
 If A and B are two matrices of order m x n and p x q then their multiplication possible only if
 the number of columns in first matrix is equal to the number of rows in second matrix.
 Suppose C a matrix where the result of A x B will be stored then the order of C is m x p.
+
+Algorithm:
+1. Start
+2. Declare variables and initialize necessary variables
+3. Enter the element of matrices by row wise using loops
+4. Check the number of rows and column of first and second matrices
+5. If number of rows of first matrix is equal to the number of columns of second
+matrix, go to step 6. Otherwise, print matrix multiplications are not possible and go
+to step 3.
+6. Multiply the matrices using nested loops.
+7. Print the product in matrix form as console output.
+8. Stop
