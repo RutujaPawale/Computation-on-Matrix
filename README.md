@@ -154,3 +154,11 @@ Step4: If m == n then:
        [End of If structure]
 Step5: Print: B[1:m, 1:n]
 Step6: Exit
+
+Conclusion:
+Thus we have learnt to declare a two dimensional array, read the elements of the array and
+print the elements of the array using static method.
+1. Addition of matrices
+2. Subtraction of matrices
+3. Multiplication of matrices
+4. Transpose of matrix
