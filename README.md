@@ -66,3 +66,9 @@ Step4: Repeat for i := 1 to m by 1:
        [End of outer for loop]
 Step5: Print: Matrix C
 Step6: Exit.
+
+2. Subtraction of Two Matrices
+If A and B are two matrices having same order m x n and C be the resultant Matrix then we
+can write C = A – B. The order of Matrix C will also be m x n. To perform subtraction, order
+of each matrix should be same otherwise subtraction is not possible as it stated above in the
+case of Matrix Addition.
