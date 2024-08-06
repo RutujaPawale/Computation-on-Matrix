@@ -53,7 +53,7 @@ matrix A has its order 2×3 and another matrix B has its order 3×2 then additio
 possible. So before adding any number of matrices we must check that whether each of the
 matrices are of same order or not then we need to proceed further.
 
-Algorithm
+Algorithm:
 Suppose A and B are two matrix arrays of order m x n, and C is another matrix array to store
 the addition result. i, j are counters.
 Step1: Start
@@ -74,8 +74,6 @@ of each matrix should be same otherwise subtraction is not possible as it stated
 case of Matrix Addition.
 
 Algorithm:
-DATA STRUCTURES LABORATORY
-DEPARTMENT OF COMPUTER ENGINEERING – NMIET (2023-24)
 Suppose A and B are two matrix arrays of order m x n, and C is another matrix array to store
 the addition result. i, j are counters.
 1: Start
@@ -88,3 +86,8 @@ the addition result. i, j are counters.
    [End of outer for loop]
 5: Print: Matrix C[1:m, 1:n]
 6: Exit.
+
+3. Matrix Multiplication
+If A and B are two matrices of order m x n and p x q then their multiplication possible only if
+the number of columns in first matrix is equal to the number of rows in second matrix.
+Suppose C a matrix where the result of A x B will be stored then the order of C is m x p.
