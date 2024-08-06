@@ -129,3 +129,28 @@ are counters. And C to store result.
 A transpose of matrix can be formed by turning all the rows of a given matrix into columns
 and vice-versa. First read a matrix of size mxn and then find its transpose by just interchanging the rows and
 columns i.e. rows become columns and columns become rows.
+
+Algorithm:
+Suppose A is a matrix array of order m x n. And B is a matrix array of order n x m to store
+result. i and j are two counters.
+Step1: Start.
+Step2: Read: m and n
+Step3: Read: Take inputs for Matrix A[1:m, 1:n].
+Step4: If m == n then:
+          Repeat for i = 1 to m by 1
+             Repeat for j = 1 to n by 1
+                B[i, j] = A[j, i]
+             [End of for loop]
+          [End of for loop]
+       Else:
+            temp = m
+            m = n
+            n = temp
+        Repeat for i = 1 to m by 1
+          Repeat for j = 1 to n by 1
+             B[i, j] = A[j, i]
+           [End of for loop]
+       [End of for loop]
+       [End of If structure]
+Step5: Print: B[1:m, 1:n]
+Step6: Exit
