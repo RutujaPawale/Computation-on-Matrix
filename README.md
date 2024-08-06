@@ -103,3 +103,24 @@ to step 3.
 6. Multiply the matrices using nested loops.
 7. Print the product in matrix form as console output.
 8. Stop
+
+Pseudo Code:
+Suppose A and B are two matrices and their order are respectively m x n and p x q. i, j and k
+are counters. And C to store result.
+1. Start.
+2. Read: m, n, p and q
+3. Read: Inputs for Matrices A[1:m, 1:n] and B[1:p, 1:q].
+4. If n ≠ p then:
+        Print: Multiplication is not possible.
+   Else
+   {
+        For( i =1 to n by 1)
+        {
+             For( j =1 to q bt 1)
+                    C[i, j] := 0 [Initializing]
+                    for( k=1 to n by 1)
+                         C[i, j] := C[i, j] + A[i, k] x B[k, j]
+         }
+    }
+6. Display C
+7. Exit.
