@@ -124,3 +124,8 @@ are counters. And C to store result.
     }
 6. Display C
 7. Exit.
+
+4. Transpose of A Matrix
+A transpose of matrix can be formed by turning all the rows of a given matrix into columns
+and vice-versa. First read a matrix of size mxn and then find its transpose by just interchanging the rows and
+columns i.e. rows become columns and columns become rows.
