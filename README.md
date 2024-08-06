@@ -72,3 +72,19 @@ If A and B are two matrices having same order m x n and C be the resultant Matri
 can write C = A – B. The order of Matrix C will also be m x n. To perform subtraction, order
 of each matrix should be same otherwise subtraction is not possible as it stated above in the
 case of Matrix Addition.
+
+Algorithm:
+DATA STRUCTURES LABORATORY
+DEPARTMENT OF COMPUTER ENGINEERING – NMIET (2023-24)
+Suppose A and B are two matrix arrays of order m x n, and C is another matrix array to store
+the addition result. i, j are counters.
+1: Start
+2: Read: m and n
+3: Read: Take inputs for Matrix A[1:m, 1:n] and Matrix B[1:m, 1:n]
+4: Repeat for i := 1 to m by 1:
+          Repeat for j := 1 to n by 1:
+                C[i, j] := A[i, j] – B[i, j]
+          [End of inner for loop]
+   [End of outer for loop]
+5: Print: Matrix C[1:m, 1:n]
+6: Exit.
