@@ -52,3 +52,17 @@ same order 2×3 then addition is possible and the resultant matrix will be of or
 matrix A has its order 2×3 and another matrix B has its order 3×2 then addition is not
 possible. So before adding any number of matrices we must check that whether each of the
 matrices are of same order or not then we need to proceed further.
+
+Algorithm
+Suppose A and B are two matrix arrays of order m x n, and C is another matrix array to store
+the addition result. i, j are counters.
+Step1: Start
+Step2: Read: m and n
+Step3: Read: Take inputs for Matrix A[1:m, 1:n] and Matrix B[1:m, 1:n]
+Step4: Repeat for i := 1 to m by 1:
+              Repeat for j := 1 to n by 1:
+                     C[i, j] := A[i, j] + B[i, j]
+              [End of inner for loop]
+       [End of outer for loop]
+Step5: Print: Matrix C
+Step6: Exit.
