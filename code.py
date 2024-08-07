@@ -60,3 +60,25 @@ columns = int(input("Enter number of columns:"))
 matrix1= [[0 for i in range(rows)] for j in range(columns)]
 matrix2 = [[0 for i in range(rows)] for j in range(columns)]
 result = [[0 for i in range(rows)] for j in range(columns)]
+
+print("Enter first Matrix:")
+for i in range(rows):
+    a = []
+    for j in range(columns):
+        a.append(int(input()))
+    matrix1.append(a)
+print("Enter second Matrix:")
+for i in range(rows):
+    b = []
+    for j in range(columns):
+        b.append(int(input()))
+    matrix2.append(b)
+
+for i in range(rows):
+    for j in range(columns):
+        print(matrix1[i][j], end=" ")
+    print()
+for i in range(rows):
+    for j in range(columns):
+        print(matrix1[i][j], end=" ")
+    print()
