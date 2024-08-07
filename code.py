@@ -53,3 +53,10 @@ def repeat():
         exit()
     else:
         print("Invalid Input!")
+
+rows = int(input("Enter number of rows:"))
+columns = int(input("Enter number of columns:"))
+
+matrix1= [[0 for i in range(rows)] for j in range(columns)]
+matrix2 = [[0 for i in range(rows)] for j in range(columns)]
+result = [[0 for i in range(rows)] for j in range(columns)]
