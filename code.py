@@ -35,3 +35,21 @@ def transMatrices():
             print(" ", result[i][j], end=" ")
         print()
     repeat()
+
+def repeat():
+    num = int(input("Which operation do you want to perform:"))
+    str(num).strip()
+
+    if num == 1:
+        addMatrices()
+    elif num == 2:
+        subMatrices()
+    elif num == 3:
+        mulMatrices()
+    elif num == 4:
+        transMatrices()
+    elif num==5:
+        print("Thank you !!")
+        exit()
+    else:
+        print("Invalid Input!")
