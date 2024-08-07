@@ -82,3 +82,13 @@ for i in range(rows):
     for j in range(columns):
         print(matrix1[i][j], end=" ")
     print()
+
+print(20*'*')
+print("Computation on Matrix")
+print(20*'*')
+print("1. Addition of two matrices")
+print("2. Subtraction of two matrices")
+print("3. Multiplication of two matrices")
+print("4. Transpose of a matrix")
+print("5. Exit")
+repeat()
